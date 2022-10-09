@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+.sticky {
+    top: 0;
+    position: sticky;
+    height: 48px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 130px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.sticky .box {
+    text-align: center;
+    border-right: 1px solid black;
+}
+.sticky span {
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    color: black;
+}
+.num {
+    font-family: 'DotGothic16';
+}
+.sticky svg , .iconimg {
+    width: 36px;
+    height: 36px;
+    margin: 6px auto;
+    display: block;
+}
+.border {
+    border-left: 1px solid black;
+}
+.sticky a:not(.type-a , .type-b) {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.twitter-icon path {
+    fill: rgb(29, 155, 240);
+}
+.f-icon {
+    fill: #FFFFFF;
+}
+.gmail-icon {
+    height: 26.83px;
+    margin: 10.585px auto;
+    display: block;
+}
+.wrapper {
+    margin-top: 20px;
+}
+.wrapper img {
+    display: block;
+    margin: 0 auto;
+}
+h1, h2, h3, p, span {
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 72px;
+    font-family: 'Alumni Sans Pinstripe'
+}
+h2 {
+    font-size: 48px;
+    font-family: 'Alumni Sans Pinstripe'
+}
+p {
+    margin: 0;
+}
+menu {
+    width: 20px;
+    height: 20px;
+}
+.result menu {
+    margin: 0;
+}
