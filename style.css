@@ -1,6 +1,7 @@
 body {
     background-color: black;
     margin: 0;
+    min-width: 650px;
 }
 .sticky {
     top: 0;
