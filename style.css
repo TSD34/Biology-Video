@@ -61,7 +61,7 @@ h1, h2, h3, p, span {
 }
 h1 {
     font-size: 72px;
-    font-family: 'Alumni Sans Pinstripe'
+    text-align: center;
 }
 h2 {
     font-size: 48px;
