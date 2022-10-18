@@ -3,6 +3,19 @@ body {
     margin: 0;
     min-width: 650px;
 }
+label {
+    margin: 8px 0;
+    color: white;
+    text-align: center;
+    display: block;
+}
+button {
+    display: block;
+    margin: 8px auto;
+}
+input {
+    color: black;
+}
 .sticky {
     top: 0;
     position: sticky;
@@ -54,6 +67,7 @@ body {
 .wrapper img:not(.oc) {
     display: block;
     margin: 0 auto;
+    width: 640px;
 }
 h1, h2, h3, p, span {
     color: white;
@@ -61,7 +75,7 @@ h1, h2, h3, p, span {
 }
 h1 {
     font-size: 72px;
-    text-align: center;
+    font-family: 'Alumni Sans Pinstripe'
 }
 h2 {
     font-size: 48px;
