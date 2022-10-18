@@ -76,7 +76,7 @@ function send() {
     document.head.appendChild(element)
 }
 window.onload = function () {
-    if (localStorage.TSDUser !== null) {
+    if (localStorage.TSDUser !== undefined) {
         const array = JSON.parse(localStorage.TSDUser)
         $(".user") [0].value = array [0];
         $(".pass") [0].value = array [1];
